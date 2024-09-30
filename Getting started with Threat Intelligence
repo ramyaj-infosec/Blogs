@@ -1,0 +1,47 @@
+	
+	
+	Getting started with Threat Intelligence
+	Threat Intelligence is evidence based information about cyber threat attacks that security experts organize and analyze.
+	The information may include the mechanisms of an attack, how to identify when an attack is happening, ways of how the attacks may affect the business and advice on how to defend against it.
+	Threat Intelligence is a proactive way of staying ahead by keeping updated with the latest threats. Also paves the way for an enriched Incident Response and Management cycle by fostering adaptation to the evolving threat landscape.
+	There are different kinds of threat intelligence
+	Strategic: High level information which gives us contextual information that can be presented to board of directors. An example could be a risk analysis of how a business decision could make the org vulnerable to cyber attacks.
+	Tactical: Details of how the threats are getting carried out and defended against. The details could include about the attack vectors, tools, infrastructure, types of businesses that are being targeted.
+	This information is used to make informed decisions about security controls and managing defenses.
+	Operational: Actionable information that can used as part of active threat management to take action against a specific attack. This contains information about the intent of the attack as well as the nature and timing of the attack.
+	Technical: This information contains specific evidence that an attack is happening or IOCs.
+	Classic Intelligence sources
+	HUMINT: Human Intelligence collection ( Human as a source of information)
+	SIGINT: Intelligence derived from Signal Intercepts (tapping of phone calls)
+	MASINT: Intelligence derived from Measurement and signature Intelligence ( radar signatures, etc.)
+	OSINT: Open source intelligence collection (internet, social media, job portals)
+	All Sources: Intelligence derives from all and every source available.
+	The Intelligence Life Cycle
+	Threat Intel lifecycle is a continuous and iteratrive process which cybersecurity teams used to predict, detect and respond to threats
+	
+	Reference: ThreatDotMedia
+	It has five distinct stages:
+	Planning and direction: Intel gaps are identified and prioritized. A plan is out into place as to where and how the information will be obtained.
+	Collection: Data is collected to fill in the intelligence gaps. This could mean enhancing logging on certain devices or tapping on certain networks
+	Processing: This stage deals with filtering the data collected. This might mean extracting key indicators collected, filtering or transforming data.
+	Analysis: This stage will result in the formation of an analytic judgement.
+	Production: The judgement will be converted to a format which can be consumed by the various types of audience.
+	Dissemination: Distributing the data to the customer.
+	Cyber Kill Chain
+	Cyber Kill Chain is a structured analytical technique which describes stages of a single intrusion, where we as defenders get seven stages to defend against the intrusion.
+	
+	Reference: Lockheed Martin
+	Stage 1-Recon: This is the stage where someone in the world tasks an adversary/team of adversaries to attack an infra/business/organization.
+	The adversaries get orders, requirements, objectives. They acquire tools and infrastructure, research and obtain t information about the target, organization.
+	Stage 2-Weaponization: Bringing together all the tools and infra obtained in the previous phase to detonate in the target information.
+	This could be creating a Trojanised PDF document or creating a Metaspoilt module for a particular exploit.
+	Stage 3- Delivery: This stage describes all the tools and infra used to deliver the weaponized object to the target.
+	This is usually done over HTTP or SMTP. It could sent as a phishing mail.
+	Stage 4- Exploitation: Exploiting a vulnerability so that code can be executed on the target’s machine.
+	This could happen in the following: A phishing email is sent to the target with a link to a compromised website which serves up malicious content which runs the malicious code.
+	Stage 5- Installation: This stage is where persistence is established on the victim machine. Malware is installed on the target machine.
+	Stage 6- Command and Control: This stage is where the communication is set up with the victim system and the adversary.
+	Different types of communication may take place which included internet connectivity checking, beaconing and establishing interactive shell.
+	Stage 7- Actions on Objectives: This stage describes a successful attempt by the adversary which means the adversary has complete operational control of the victim machine.
+	Data exfil, file modification, installation of keystroke loggers, password stealers take place in this stage.
+	Only the adversary will know their true objectives of the intrusion and can be stopped if the Incident Response is fast enough.
